@@ -1,0 +1,36 @@
+radius		4
+speed		2
+power		1
+
+col1		1.0 0.3 0.1 1.0
+col2		1.0 0.8 0.3 1.0
+disp_size	4 2
+
+maxlevel	4
+
+0.shot_pos1	0 0 0
+0.interval	20
+
+1.shot_pos1	 10 0 0
+1.shot_pos2	-10 0 0
+1.interval	15
+
+2.shot_pos1	 10 0 0
+2.shot_pos2	-10 0 0
+2.shot_pos3	  0 30 180
+2.interval	15
+
+3.shot_pos1	 8 0 0
+3.shot_pos2	-8 0 0
+3.shot_pos3	 18 4 0
+3.shot_pos4	-18 4 0
+3.shot_pos5	  0 30 180
+3.interval	12
+
+4.shot_pos1	 8 0 0
+4.shot_pos2	-8 0 0
+4.shot_pos3	 18 4 0
+4.shot_pos4	-18 4 0
+4.shot_pos5	 10 30 180
+4.shot_pos6	-10 30 180
+4.interval	12

@@ -1,0 +1,45 @@
+delay		0.1
+
+radius		2
+speed		2.0
+decay		0.9
+
+power		1
+
+col		0.5 0.95 1.0 1.0
+size		2
+tail_max	8
+
+maxlevel	4
+
+0.shot_pos1	0 0 0
+0.interval	60
+0.rot_speed	2.5
+0.target_angle	10
+0.time		0.5
+
+1.shot_pos1	0 0 0
+1.interval	50
+1.rot_speed	3
+1.target_angle	15
+1.time		0.6
+
+2.shot_pos1	0 0 0
+2.interval	45
+2.rot_speed	5
+2.target_angle	15
+2.time		0.7
+
+3.shot_pos1	0 0 0
+3.shot_pos2	0 30 180
+3.interval	40
+3.rot_speed	10
+3.target_angle	20
+3.time		0.7
+
+4.shot_pos1	0 0 0
+4.shot_pos2	0 30 180
+4.interval	35
+4.rot_speed	10
+4.target_angle	20
+4.time		0.8

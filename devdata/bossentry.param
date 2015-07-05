@@ -1,0 +1,60 @@
+#
+# BOSS登場演出
+#
+texture		TEX game
+disp_count	7
+
+boss_e1.pos	76 320
+boss_e1.size	248 32
+boss_e1.uv	0 32
+boss_e2.pos	322 320
+boss_e2.size	112 32
+boss_e2.uv	0 64
+
+boss_e3.pos	256 170
+boss_e3.size	242 50
+boss_e3.uv	0 95
+boss_e3.center	121 28
+
+boss_e4.pos	256 170
+boss_e4.size	242 50
+boss_e4.uv	0 147
+boss_e4.center	121 28
+
+emargen.delay	0.2
+emargen.intr	0.1		# 表示間隔
+emargen.intr2	0.5 0.5
+emargen.count	0.5		# 表示時間
+emargen.scale	1.5 1.5		# 最大スケール
+emargen.num	3		# 警告回数
+emargen.intr3	3
+emargen.frame	0.8
+
+sub_delay	1.5
+
+sub.1		15 0.07 0
+sub.2		29 0.07 0
+sub.3		47 0.2 0
+
+sub.4		67 0.07 0
+sub.5		83 0.07 0
+sub.6		103 0.07 0
+sub.7		119 0.07 0
+sub.8		128 0.07 0
+sub.9		135 0.07 0
+sub.10		149 0.07 0
+sub.11		156 0.2 0
+
+sub.12		177 0.07 0
+sub.13		191 0.07 0
+sub.14		207 0.07 0
+sub.15		227 0.07 0
+sub.16		243 0.2 0
+
+sub.17		18 0.07 1
+sub.18		34 0.07 1
+sub.19		49 0.07 1
+sub.20		65 0.07 1
+sub.21		81 0.07 1
+sub.22		89 0.07 1
+sub.23		103 0.07 1

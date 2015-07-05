@@ -1,0 +1,282 @@
+start_level	1
+start_ene_lv	1
+start_boss_lv	1
+
+entry_dist	380			# ½Ð¸½»þ¤Îµ÷Î¥
+entry_angle	45			# ¸þ¤­
+
+boss_dist	500
+boss_angle	45
+
+# Éð´ï¤ò½¦¤¦¤ÈÅ¨¤Î¥ì¥Ù¥ë¤¬¾å¤¬¤ë
+1.ene_level	32
+2.ene_level	32
+3.ene_level	32
+4.ene_level	24
+5.ene_level	24
+6.ene_level	24
+7.ene_level	16
+
+# Æñ°×ÅÙ¥¢¥Ã¥×»þ¤ÎÅ¨¥Ñ¥é¥á¡¼¥¿
+boss_pow_lv	0.3			# powerÁýÊ¬
+boss_shpow_lv	0.25			# SHOT¤ÎpowerÁýÊ¬
+boss_shang_lv	3.3			# SHOT¤Îº÷Å¨ÈÏ°ÏÁýÊ¬(³ÑÅÙ)
+boss_shdist_lv	5.0			# SHOT¤Îº÷Å¨ÈÏ°ÏÁýÊ¬(µ÷Î¥)
+enemy_shpow_lv	0.22
+enemy_shang_lv	1.25
+
+# Æñ°×ÅÙ¥¢¥Ã¥×»þ¤Î¥¸¥ó¥°¥ë
+1.jingle	"jingle_1"
+2.jingle	"jingle_2"
+3.jingle	"jingle_3"
+4.jingle	"jingle_4"
+
+
+formation1.1	 35 30  7
+formation1.2	-35 30	7
+
+formation2.1	 35 30  5
+formation2.2	-35 30	5
+
+formation3.1	 35 30  4
+formation3.2	-35 30	4
+
+
+1.lvup		10
+1.enemy_num	5
+1.ene_interval	1.5
+1.enemy1	7  20
+1.enemy2	6  10
+1.weapon1	0 0  50
+1.weapon2	1 0  25
+1.extra1	-1 100
+
+2.lvup		10
+2.enemy_num	5
+2.ene_interval	1.5
+2.enemy1	7  15
+2.enemy2	6  10
+2.enemy3	5  5
+2.weapon1	0 0  50
+2.weapon2	1 0  25
+2.weapon3	2 0  20
+2.extra1	-1 100
+
+# BOSS-1
+3.lvup		10
+3.enemy_num	5
+3.ene_interval	2.0
+3.ene_timeout	60
+3.boss		1
+3.enemy1	5  100
+3.enemy2	6  30
+3.enemy3	7  30
+3.weapon1	0 0  25
+3.weapon2	1 0  25
+3.weapon3	2 0  25
+3.extra1	0 10
+3.extra2	-1 90
+
+4.lvup		10
+4.enemy_num	8
+4.ene_interval	2.0
+4.enemy1	7 25
+4.enemy2	5 25
+4.enemy3	4 10
+4.weapon1	0 0  50
+4.weapon2	2 0  50
+4.weapon3	3 0  25
+4.extra1	0 5
+4.extra2	-1 95
+
+5.lvup		10
+5.enemy_num	10
+5.ene_interval	1.5
+5.enemy1	3 100
+5.enemy2	5 20
+5.weapon1	0 0  50
+5.weapon2	2 0  50
+5.weapon3	3 0  50
+5.extra1	0 5
+5.extra2	-1 95
+
+# BOSS-2
+6.lvup		5
+6.enemy_num	5
+6.ene_interval	2.0
+6.ene_timeout	60
+6.boss		1
+6.enemy1	7  25
+6.enemy2	4  60
+6.enemy3	3  60
+6.weapon1	1 0  50
+6.weapon2	2 0  50
+6.weapon3	3 0  50
+6.extra1	0 10
+6.extra2	-1 90
+
+7.lvup		10
+7.enemy_num	10
+7.ene_interval	2.5
+7.enemy1	4 1 50
+7.enemy2	4 1 50
+7.enemy3	3 50
+7.weapon1	0 0  50
+7.weapon2	2 0  50
+7.weapon3	3 0  50
+7.extra1	0 5
+7.extra2	-1 95
+
+8.lvup		10
+8.enemy_num	10
+8.ene_interval	1.5
+8.enemy1	2  20
+8.enemy2	5  40
+8.enemy3	6  50
+8.enemy4	7  50
+8.weapon1	0 0  20
+8.weapon2	0 1  10
+8.weapon3	1 0  50
+8.weapon4	3 0  50
+8.extra1	0 5
+8.extra2	-1 95
+
+# BOSS-3
+9.lvup		5
+9.enemy_num	5
+9.ene_interval	2.0
+9.ene_timeout	60
+9.boss		1
+9.enemy1	5  30
+9.enemy2	3  40
+9.enemy3	2  10
+9.enemy4	1  5
+9.weapon1	0 0  20
+9.weapon2	1 0  50
+9.weapon3	3 0  50
+9.extra1	0 10
+9.extra2	1 5
+9.extra3	-1 85
+
+10.lvup		12
+10.enemy_num	10
+10.ene_interval	1.5
+10.enemy1	4 2  40
+10.enemy2	1  10
+10.enemy3	2  10
+10.enemy4	3  30
+10.weapon1	0 0  50
+10.weapon2	1 0  50
+10.weapon3	2 0  50
+10.weapon1	0 1  25
+10.weapon2	1 1  25
+10.weapon3	2 1  25
+10.extra1	0 6
+10.extra2	1 3
+10.extra3	-1 91
+
+11.lvup		12
+11.enemy_num	10
+11.ene_interval	1.5
+11.enemy1	4 1  40
+11.enemy2	4 3  40
+11.enemy3	3 30
+11.enemy4	2 10
+11.enemy5	1 10
+11.weapon1	0 0  50
+11.weapon2	1 0  50
+11.weapon3	2 0  50
+11.weapon4	3 0  100
+11.weapon5	0 1  25
+11.weapon6	1 1  25
+11.weapon7	2 1  25
+11.weapon8	3 1  50
+11.extra1	0 6
+11.extra2	1 3
+11.extra3	-1 91
+
+# BOSS-4
+12.lvup		5
+12.enemy_num	7
+12.ene_interval	2.0
+12.ene_timeout	60
+12.boss		1
+12.enemy1	5 40
+12.enemy2	4 50
+12.enemy3	3 20
+12.enemy4	2 10
+12.enemy5	1 10
+12.weapon1	0 0  50
+12.weapon2	1 0  50
+12.weapon3	2 0  60
+12.weapon4	3 0  80
+12.weapon5	0 1  25
+12.weapon6	1 1  25
+12.weapon7	2 1  30
+12.weapon8	3 1  40
+12.extra1	0 10
+12.extra2	1 5
+12.extra3	-1 85
+
+13.lvup		15
+13.enemy_num	10
+13.ene_interval	1.5
+13.enemy1	7 40
+13.enemy2	6 50
+13.enemy3	5 20
+13.weapon1	0 0  50
+13.weapon2	1 0  50
+13.weapon3	2 0  60
+13.weapon4	3 0  80
+13.weapon5	0 1  25
+13.weapon6	1 1  25
+13.weapon7	2 1  30
+13.weapon8	3 1  40
+13.extra1	0 6
+13.extra2	1 3
+13.extra3	-1 91
+
+14.lvup		15
+14.enemy_num	12
+14.ene_interval	1.5
+14.enemy1	4 1  40
+14.enemy2	3 2  50
+14.enemy3	1 3  20
+14.enemy4	3 10
+14.weapon1	0 0  50
+14.weapon2	1 0  50
+14.weapon3	2 0  60
+14.weapon4	3 0  80
+14.weapon5	0 1  25
+14.weapon6	1 1  25
+14.weapon7	2 1  30
+14.weapon8	3 1  40
+14.extra1	0 6
+14.extra2	1 3
+14.extra3	-1 91
+
+# BOSS-5
+15.lvup		5
+15.enemy_num	7
+15.ene_interval	2.0
+15.ene_timeout	90
+15.boss		2
+15.enemy1	7 30
+15.enemy2	6 30
+15.enemy3	5 30
+15.enemy4	4 20
+15.enemy5	3 20
+15.enemy6	2 10
+15.enemy7	1 10
+15.weapon1	0 0  50
+15.weapon2	1 0  50
+15.weapon3	2 0  50
+15.weapon4	3 0  50
+15.weapon5	0 1  25
+15.weapon6	1 1  25
+15.weapon7	2 1  25
+15.weapon8	3 1  25
+15.extra1	0 10
+15.extra2	1 5
+15.extra3	-1 85
+15.next_lv	1

@@ -1,0 +1,265 @@
+title_delay	0.5
+
+texture		TEX title
+
+# T
+1.uv		 0 0
+1.size		53 74
+1.center	 0 74
+1.pos	        25 140
+# i
+2.uv		54  0
+2.size		18 74
+2.center	 0 74
+2.pos	        80 140
+# e
+3.uv		74  0
+3.size		60 74
+3.center	 0 74
+3.pos	        98 140
+# G
+4.uv		0  80
+4.size		82 76
+4.center	 0 76
+4.pos	        160 140
+# u
+5.uv		86 103
+5.size		49 54
+5.center	 0 54
+5.pos	        243 140
+# n
+6.uv		140 103
+6.size		49 54
+6.center	 0 54
+6.pos	        293 140
+# n
+7.uv		140 103
+7.size		49 54
+7.center	 0 54
+7.pos	        343 140
+# e
+8.uv		74 0
+8.size		60 74
+8.center	 0 74
+8.pos	        391 140
+# r
+9.uv		137 0
+9.size		34 74
+9.center	 0 74
+9.pos	        452 140
+
+# LOGO½Ğ¸½»ş¤Î±é½Ğ
+# T
+1s.frame	1.5
+1s.slow		0
+1s.start	512 256
+1s.s_sc		2 2
+1s.delay	0
+# i
+2s.frame	1.5
+2s.slow		0
+2s.start	512 256
+2s.s_sc		2 2
+2s.delay	0.1
+# e
+3s.frame	1.5
+3s.slow		0
+3s.start	512 256
+3s.s_sc		2 2
+3s.delay	0.2
+# G
+4s.frame	1.5
+4s.slow		0
+4s.start	512 300
+4s.s_sc		2 2
+4s.delay	0.3
+# u
+5s.frame	1.5
+5s.slow		0
+5s.start	512 300
+5s.s_sc		2 2
+5s.delay	0.4
+# n
+6s.frame	1.5
+6s.slow		0
+6s.start	512 300
+6s.s_sc		2 2
+6s.delay	0.5
+# n
+7s.frame	1.5
+7s.slow		0
+7s.start	512 300
+7s.s_sc		2 2
+7s.delay	0.6
+# e
+8s.frame	1.5
+8s.slow		0
+8s.start	512 300
+8s.s_sc		2 2
+8s.delay	0.7
+# r
+9s.frame	1.5
+9s.slow		0
+9s.start	512 300
+9s.s_sc		2 2
+9s.delay	0.8
+
+
+game.uv		0 194
+game.size	107 35
+game.pos	256 350
+game.center	100 18
+start.uv	108 194
+start.size	84 35
+start.pos	256 350
+start.center	-15 18
+
+>.uv		224 0
+>.size		16 28
+>.pos		170 350
+>.center	16 14
+<.uv		240 0
+<.size		16 28
+<.pos		342 350
+<.center	0 14
+
+start_delay	4
+start_scale	0.8  1.0
+
+copy.uv		0 233
+copy.size	251 23
+copy.pos	256 472
+copy.center	125 0
+
+ngs.uv		201 115
+ngs.size	55 12
+ngs.pos		428 144
+
+title_count	12
+start_count	1.25
+start_fade	0.06
+
+
+# ½ªÎ»»ş¤Î±é½Ğ
+end_delay	1.2
+
+game.frame	0.6
+game.slow	1
+game.end	-8 350
+game.delay	0
+
+start.frame	0.6
+start.slow	1
+start.end	512 350
+start.delay	0
+
+copy.frame	0.4
+copy.slow	1
+copy.end	256 512
+copy.delay	0.2
+
+ngs.frame	0.4
+ngs.slow	1
+ngs.end		512 144
+ngs.delay	0.2
+
+1e.frame	0.4
+1e.slow		1
+1e.end		-74 110
+1e.delay	0.3
+
+2e.frame	0.4
+2e.slow		1
+2e.end		-74 110
+2e.delay	0.45
+
+3e.frame	0.4
+3e.slow		1
+3e.end		-74 110
+3e.delay	0.5
+
+4e.frame	0.4
+4e.slow		1
+4e.end		512 195
+4e.delay	0.55
+
+5e.frame	0.4
+5e.slow		1
+5e.end		512 195
+5e.delay	0.5
+
+6e.frame	0.4
+6e.slow		1
+6e.end		512 195
+6e.delay	0.45
+
+7e.frame	0.4
+7e.slow		1
+7e.end		512 195
+7e.delay	0.4
+
+8e.frame	0.4
+8e.slow		1
+8e.end		512 195
+8e.delay	0.35
+
+9e.frame	0.4
+9e.slow	1
+9e.end		512 195
+9e.delay	0.3
+
+# ²»ÎÌÄ´À°
+vol.uv		226 35
+vol.size	15 26
+vol.center	15 0
+vol.pos	        168 399
+
+vol1.uv		241 35
+vol1.size	14 26
+vol1.center	0 0
+vol1.pos	168 399
+vol2.uv		241 61
+vol2.size	11 22
+vol2.center	0 -2
+vol2.pos	168 399
+
+vol3.uv		241 85
+vol3.size	9 17
+vol3.center	0 -5
+vol3.pos	168 399
+
+v_var1.uv	0 160
+v_var1.size	175 16
+v_var1.center	0 -8
+v_var1.pos	185 397
+v_var2.uv	0 175
+v_var2.size	175 16
+v_var2.center	0 -8
+v_var2.pos	185 397
+
+vol.frame	0.55
+vol.slow	1
+vol.end		166 512
+vol.delay	0.2
+
+vol1.frame	0.55
+vol1.slow	1
+vol1.end	166 512
+vol1.delay	0.2
+vol2.frame	0.55
+vol2.slow	1
+vol2.end	166 512
+vol2.delay	0.2
+vol3.frame	0.55
+vol3.slow	1
+vol3.end	166 512
+vol3.delay	0.2
+
+v_var1.frame	0.55
+v_var1.slow	1
+v_var1.end	185 512
+v_var1.delay	0.2
+v_var2.frame	0.55
+v_var2.slow	1
+v_var2.end	185 512
+v_var2.delay	0.2

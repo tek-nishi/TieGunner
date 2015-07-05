@@ -1,0 +1,35 @@
+社内LAN において、なんとなく決まっている事柄。
+
+・個人のマシン名は、「地名」で統一しています(本人ゆかりの地でお願いします)。
+
+・社内サーバは Side2(IP:192.168.0.5)。
+  公開されているディレクトリについて
+  \\Side2\public			共用ディレクトリ。各人適当に利用してください。
+  \\Side2\public\warehouse		データ受け渡しディレクトリ。各人適当に利用してください。
+  \\Side2\public\warehouse\WinApp	データ受け渡しディレクトリ。Winアプリケーション用。
+  \\Side2\www				社内 HP 用ディレクトリ。webmaster:bitstep で利用可能。
+  \\Side2\ScFight			スクランブルファイト共用ディレクトリ。
+  \\Side2\ultra				ウルトラ共用ディレクトリ。
+
+・Side2 にて、IRCサーバが動作しています。チャンネル名は #bitstep
+
+・社内 HP
+  http://192.168.0.5/schedule/calender.php          全体用スケジュール
+  http://192.168.0.5/cgi-bin/wwwforum/wwwforum.cgi  掲示板
+  http://192.168.0.5/forum/                         社内 WEB
+
+・プリンタは 192.168.0.2 です。
+
+・samba へのアクセスは、ユーザを設定して、アクセス制限を掛けます。
+  bitstep	基本的なディレクトリ
+  scfight	ScFight 内
+  ultra		ultra 内
+  webmaster	www 内
+
+  今後もこの方式でアクセス制限を掛けます。
+
+・http へのアクセスも、アクセス制限を掛けます。
+
+・/usr/local/bin/execps2  T-10000 でPS2のゲームを起動
+  /usr/local/bin/resetps2 T-10000 リセット
+

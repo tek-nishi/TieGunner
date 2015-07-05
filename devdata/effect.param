@@ -1,0 +1,158 @@
+
+explosion	TEX explosion
+
+explo.type	0
+explo.delay	0
+explo.tex	"explosion"
+explo.col	1.0 1.0 1.0 1.0
+explo.bl	0
+explo.size	64 64
+explo.center	32 32
+explo.uv	0 0
+explo.pat	4
+explo.time	2
+
+hit.type	0
+hit.delay	0
+hit.tex		"explosion"
+hit.col		1.0 1.0 1.0 1.0
+hit.bl		0
+hit.size	32 32
+hit.center	16 16
+hit.uv		0 64
+hit.pat		4
+hit.time	3
+
+hit2.type	0
+hit2.delay	0
+hit2.tex	"explosion"
+hit2.col	1.0 1.0 1.0 1.0
+hit2.bl		0
+hit2.size	44 44
+hit2.center	22 22
+hit2.uv		0 96
+hit2.pat	4
+hit2.time	3
+
+
+ene_ex.type	1
+ene_ex.delay	0.04
+ene_ex.slow	0
+ene_ex.col	1.0 1.0 0.2 0.8
+ene_ex.bl	0
+ene_ex.rad_st	35 35
+ene_ex.rad_ed	40 40
+ene_ex.vtx	20
+ene_ex.lsz	1
+ene_ex.time	0.5
+
+plr_ex.type	1
+plr_ex.delay	0.04
+plr_ex.slow	0
+plr_ex.col	0.2 1.0 1.0 0.8
+plr_ex.bl	0
+plr_ex.rad_st	35 35
+plr_ex.rad_ed	45 45
+plr_ex.vtx	20
+plr_ex.lsz	1
+plr_ex.time	1.0
+
+bat1_ex.type	1
+bat1_ex.delay	0.025
+bat1_ex.slow	0
+bat1_ex.col	1.0 1.0 0.2 0.8
+bat1_ex.bl	0
+bat1_ex.rad_st	25 25
+bat1_ex.rad_ed	30 30
+bat1_ex.vtx	20
+bat1_ex.lsz	1
+bat1_ex.time	0.5
+
+bat2_ex.type	1
+bat2_ex.delay	0.025
+bat2_ex.slow	0
+bat2_ex.col	1.0 1.0 0.2 0.8
+bat2_ex.bl	0
+bat2_ex.rad_st	50 50
+bat2_ex.rad_ed	55 55
+bat2_ex.vtx	20
+bat2_ex.lsz	1
+bat2_ex.time	0.5
+
+bat3_ex.type	1
+bat3_ex.delay	0.025
+bat3_ex.slow	0
+bat3_ex.col	1.0 1.0 0.2 0.8
+bat3_ex.bl	0
+bat3_ex.rad_st	15 15
+bat3_ex.rad_ed	20 20
+bat3_ex.vtx	20
+bat3_ex.lsz	1
+bat3_ex.time	0.5
+
+
+boss_e1.type	2
+boss_e1.delay	0
+boss_e1.slow	0
+boss_e1.col	1.0 1.0 0.2 0.8
+boss_e1.col_c	1.0 1.0 1.0 1.0
+boss_e1.bl	1
+boss_e1.rad_st	130 130
+boss_e1.rad_ed	150 150
+boss_e1.vtx	30
+boss_e1.time	1.5
+
+boss_e2.type	1
+boss_e2.delay	0.02
+boss_e2.slow	0
+boss_e2.col	1.0 1.0 0.2 0.8
+boss_e2.bl	0
+boss_e2.rad_st	145 145
+boss_e2.rad_ed	160 160
+boss_e2.vtx	30
+boss_e2.lsz	1
+boss_e2.time	0.5
+
+boss_e3.type	2
+boss_e3.delay	0.5
+boss_e3.slow	1
+boss_e3.col	1.0 1.0 0.5 0.5
+boss_e3.col_c	1.0 1.0 0.2 0.0
+boss_e3.bl	1
+boss_e3.rad_st	140 140
+boss_e3.rad_ed	300 300
+boss_e3.vtx	30
+boss_e3.time	0.8
+
+bomb.type	1
+bomb.delay	0.2
+bomb.slow	0
+bomb.col	0.5 0.5 1.0 0.9
+bomb.bl		0
+bomb.rad_st	1.05 1.05
+bomb.rad_ed	1.1 1.1
+bomb.vtx	20
+bomb.lsz	1
+bomb.time	0.5
+
+w_lost.type	1
+w_lost.delay	0.04
+w_lost.slow	0
+w_lost.col	0.2 1.0 1.0 0.8
+w_lost.bl	0
+w_lost.rad_st	18 18
+w_lost.rad_ed	23 23
+w_lost.vtx	20
+w_lost.lsz	1
+w_lost.time	0.4
+
+w_exp.type	0
+w_exp.delay	0
+w_exp.tex	"explosion"
+w_exp.col	1.0 1.0 1.0 0.7
+w_exp.bl	0
+w_exp.size	32 32
+w_exp.center	16 16
+w_exp.uv	0 139
+w_exp.pat	4
+w_exp.time	3

@@ -1,0 +1,45 @@
+
+speed		0.16 0.16	# 加速度(通常、回避)
+decay		0.92		# 抵抗
+rot_speed	0.037		# 旋回性能
+rot_decay	0.95		# 旋回抵抗
+
+move_type	0		# 移動パターン
+
+target_dist	180 400		# 相手が見える距離
+target_angle	40		# 相手が見える角度(マイナスの値で処理をスキップ)
+
+obj_angle	30  		# こっち向いてると判別する角度(マイナスの値で処理をスキップ)
+run_angle	90		# 回避行動を行う向き
+
+target_time	120 240		# 追跡時間範囲
+move_time	120 240		# 移動時間範囲
+move_angle	45 		# 移動方向範囲
+
+power		1
+dmg_nohit	0.083
+radius		15
+
+weapon_max	1
+weapon_ofs	22
+
+shot_forword	0.083		# 先読み
+shot_range	150 250
+shot_angle	50 20
+shot_abort	150 15		# SHOTを中止する距離と相手から捉えた角度
+shot_time	40 30		# 視界に捉えてから撃つまでの時間、連続発射時間
+shot_ofs	0 -20
+
+death_time	0.25		# やられ演出時間
+
+texture		TEX enemy07
+size		32  32
+center		16  15
+col		0.55 0.55 0.55 1.0
+
+dmg_col1	1.0 0.5 0.5 1
+dmg_col2	0.6 0.0 0.0 1
+dmg_col_timer	0.167
+death_col_t	0.05
+
+score		50

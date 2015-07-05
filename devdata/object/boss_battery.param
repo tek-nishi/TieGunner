@@ -1,0 +1,44 @@
+#
+# 先端についてる砲台
+#
+
+speed		0.02		# 加速度
+decay		0.98		# 抵抗
+rot_speed	0.35		# 旋回性能
+rot_max		100		# 稼働範囲
+
+power		5
+dmg_nohit	0.25
+radius		15
+
+weapon_max	1
+weapon_ofs	5
+
+target_dist	150 500		# 相手が見える範囲
+target_angle	45  		# 角度
+
+shot_range	100 300		# 攻撃判定距離(min max)
+shot_angle	30		# 攻撃判定角度
+shot_forword	0.5		# 先読み
+shot_time	60 30		# 視界に捉えてから撃つまでの時間、連続発射時間
+
+shot_type.1	0  20  -10
+shot_type.2	1  20  1
+shot_type.3	3   0  3
+shot_level	0
+shot_ofs	0 -10
+
+dead_eft	"bat1_ex"	# やられエフェクト
+
+disp		1
+
+texture		TEX boss_battery
+size		32 32
+center		16 16
+col		0.4 0.4 0.4 1.0
+
+dmg_col1	1.0 0.5 0.5 1
+dmg_col2	0.6 0.0 0.0 1
+dmg_col_timer	0.25
+
+score		100

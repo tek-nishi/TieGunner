@@ -1,0 +1,30 @@
+speed		0.2		# スピード
+decay		0.92		# 抵抗
+
+weapon_max	1
+weapon_ofs	18
+
+power		1
+dmg_nohit	0.3		# ダメージ直後の無敵時間
+
+levelup_time	5		# パワーアップ時間
+
+shot_ofs	0 -20
+
+radius		8		# Hit Size
+
+death_time	0.6		# やられ演出時間
+
+texture		TEX player
+size		32 48
+center		16 26
+
+dmg_col1	1.0 1.0 0.6 1
+dmg_col2	0.7 0.0 0.0 1
+dmg_col_timer	0.3
+
+# 推進力の演出
+th.uv		64 0
+th.size		32 24
+th.pos		0 0
+th.center	16 0

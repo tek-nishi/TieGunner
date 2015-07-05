@@ -1,0 +1,17 @@
+texture		TEX gameover
+
+game.uv		0 0
+game.size	143 48
+game.pos	128 230
+over.uv		143 0
+over.size	113 48
+over.pos	270 230
+
+gameover_delay	2.0
+sound_delay	1.8
+
+move_delay	4.0
+move_count	0.6
+
+gameover_count	4.0
+gameover_kill	2.0

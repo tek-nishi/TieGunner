@@ -1,0 +1,119 @@
+1.name		"title"
+1.file		"title"
+1.ch		"bgm"
+
+2.name		"shot_bullet"
+2.file		"shot_bullet"
+2.ch		"shot"
+
+3.name		"shot_lazer"
+3.file		"shot_lazer"
+3.ch		"shot"
+
+4.name		"shot_bomb"
+4.file		"shot_bomb"
+4.ch		"shot"
+
+5.name		"shot_hit"
+5.file		"shot_hit"
+5.ch		"hit"
+
+6.name		"bomb_hit"
+6.file		"bomb_hit"
+6.ch		"hit"
+
+7.name		"player_dead"
+7.file		"player_dead"
+7.ch		"dead"
+
+8.name		"enemy_dead"
+8.file		"enemy_dead"
+8.ch		"dead"
+
+9.name		"start"
+9.file		"start"
+9.ch		"bgm"
+
+10.name		"gameover"
+10.file		"gameover"
+10.ch		"bgm"
+
+11.name		"start_touch"
+11.file		"start_touch"
+11.ch		"select"
+
+12.name		"start_push"
+12.file		"start_push"
+12.ch		"select"
+
+13.name		"rank_in"
+13.file		"rank_in"
+13.ch		"hit"
+
+14.name		"rank_key"
+14.file		"rank_key"
+14.ch		"select"
+
+15.name		"weapon_get"
+15.file		"weapon_get"
+15.ch		"weapon"
+
+16.name		"power_up"
+16.file		"power_up"
+16.ch		"power_up"
+
+17.name		"jingle_1"
+17.file		"jingle_1"
+17.ch		"jingle"
+
+18.name		"jingle_2"
+18.file		"jingle_2"
+18.ch		"jingle"
+
+19.name		"jingle_3"
+19.file		"jingle_3"
+19.ch		"jingle"
+
+20.name		"jingle_4"
+20.file		"jingle_4"
+20.ch		"jingle"
+
+21.name		"opening"
+21.file		"opening"
+21.ch		"bgm"
+
+22.name		"boss_enter"
+22.file		"boss_enter"
+22.ch		"bgm"
+
+23.name		"boss_bgm"
+23.file		"boss_bgm"
+23.ch		"jingle"
+
+24.name		"boss_dead"
+24.file		"boss_dead"
+24.ch		"boss_dead"
+
+25.name		"title_fin"
+25.file		"title_fin"
+25.ch		"se"
+
+26.name		"bomb_ex"
+26.file		"bomb_ex2"
+26.ch		"bomb_ex"
+
+27.name		"shot_th"
+27.file		"thunder_shot"
+27.ch		"thunder"
+
+28.name		"w_lost"
+28.file		"w_lost2"
+28.ch		"w_lost"
+
+29.name		"boss_clear"
+29.file		"boss_clear"
+29.ch		"jingle"
+
+30.name		"shot_extra"
+30.file		"shot_extra"
+30.ch		"shot_extra"

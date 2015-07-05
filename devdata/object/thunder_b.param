@@ -1,0 +1,49 @@
+radius		3
+
+div		10			# 分割数
+r_val		0.5			# 振れ幅
+col		0.95 0.5 1.0 1.0
+radius		8
+l_size		2
+
+maxlevel	4
+
+0.shot_pos1	0 -10 0
+0.interval	90
+0.time		30
+0.range		80 200
+0.angle		15
+0.lock_angle	20			# Lockが外れる角度
+0.power		0.024
+
+1.shot_pos1	0 -10 0
+1.interval	90
+1.time		30
+1.range		80 220
+1.angle		20
+1.lock_angle	20			# Lockが外れる角度
+1.power		0.024
+
+2.shot_pos1	0 -10 0
+2.interval	90
+2.time		30
+2.range		100 240
+2.angle		30
+2.lock_angle	30			# Lockが外れる角度
+2.power		0.03
+
+3.shot_pos1	0 -10 0
+3.interval	60
+3.time		30
+3.range		100 250
+3.angle		30
+3.lock_angle	30			# Lockが外れる角度
+3.power		0.03
+
+4.shot_pos1	0 -10 0
+4.interval	60
+4.time		30
+4.range		100 250
+4.angle		45
+4.lock_angle	45			# Lockが外れる角度
+4.power		0.03

@@ -1,0 +1,21 @@
+time		0.7
+radius		30  365			# È¾·Â(START, END)
+col1		1 0.8 0 0
+col2		1 1 0.7 0.9
+col3		1 1 1 1
+fade_out	0.15			# F.O.»þ´Ö
+
+ofs		0 20
+
+maxlevel	4
+
+0.interval	30
+0.power		1
+1.interval	30
+1.power		2
+2.interval	30
+2.power		3
+3.interval	30
+3.power		4
+4.interval	30
+4.power		5

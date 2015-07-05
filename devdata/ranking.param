@@ -1,0 +1,27 @@
+ranking_count	10 6
+
+fade_in		1.5
+input_delay	1.0
+se_delay	0.5
+
+1.rank_hdr	"$C2"
+2.rank_hdr	"$C2"
+3.rank_hdr	"$C2"
+4.rank_hdr	""
+5.rank_hdr	""
+6.rank_hdr	""
+7.rank_hdr	""
+8.rank_hdr	""
+9.rank_hdr	""
+10.rank_hdr	""
+
+1.rank_str	" 1st"
+2.rank_str	" 2nd"
+3.rank_str	" 3rd"
+4.rank_str	" 4th"
+5.rank_str	" 5th"
+6.rank_str	" 6th"
+7.rank_str	" 7th"
+8.rank_str	" 8th"
+9.rank_str	" 9th"
+10.rank_str	"10th"

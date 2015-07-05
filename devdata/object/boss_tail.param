@@ -1,0 +1,16 @@
+
+speed		0.02		# 加速度
+decay		0.98		# 抵抗
+rot_speed	0.4		# 旋回性能
+rot_max		0
+
+power		1
+dmg_nohit	5
+radius		5
+
+weapon_max	1
+weapon_ofs	5
+
+col		1.0 1.0 1.0 1.0
+
+disp		0

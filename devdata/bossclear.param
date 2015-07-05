@@ -1,0 +1,118 @@
+#
+# BOSS撃破演出
+#
+delay		4.5		# 処理開始待ち
+bgm_delay	4.3		# bgm開始待ち
+disp_time	7
+out_time	0.5
+next_time	8
+
+texture		TEX gamestart
+
+target.uv	0 72
+target.size	138 54
+target.pos	64 163
+target.st_x	-200
+
+defeat.uv	0 126
+defeat.size	220 52
+defeat.center	0 -1
+defeat.pos	214 163
+defeat.st_x	512
+
+sub1.uv		0 178
+sub1.size	238 28
+sub1.pos	109 315
+
+sub2.uv		0 206
+sub2.size	50 27
+sub2.center	0 1
+sub2.pos	352 315
+
+sub3.uv		58 206
+sub3.size	186 25
+sub3.pos	165 355
+
+sub1.delay.1	1.4
+sub1.size_x.1	0
+sub1.delay.2	0.07
+sub1.size_x.2	15
+sub1.delay.3	0.07
+sub1.size_x.3	31
+sub1.delay.4	0.07
+sub1.size_x.4	44
+sub1.delay.5	0.2
+sub1.size_x.5	54
+sub1.delay.6	0.07
+sub1.size_x.6	69
+sub1.delay.7	0.07
+sub1.size_x.7	75
+sub1.delay.8	0.07
+sub1.size_x.8	91
+sub1.delay.9	0.07
+sub1.size_x.9	105
+sub1.delay.10	0.2
+sub1.size_x.10	117
+sub1.delay.11	0.07
+sub1.size_x.11	134
+sub1.delay.12	0.07
+sub1.size_x.12	149
+sub1.delay.13	0.07
+sub1.size_x.13	163
+sub1.delay.14	0.07
+sub1.size_x.14	174
+sub1.delay.15	0.07
+sub1.size_x.15	179
+sub1.delay.16	0.07
+sub1.size_x.16	194
+sub1.delay.17	0.07
+sub1.size_x.17	209
+sub1.delay.18	0.07
+sub1.size_x.18	224
+sub1.delay.19	0.07
+sub1.size_x.19	238
+
+
+sub2.delay.1	3.02
+sub2.size_x.1	0
+sub2.delay.2	0.07
+sub2.size_x.2	14
+sub2.delay.3	0.07
+sub2.size_x.3	24
+sub2.delay.4	0.07
+sub2.size_x.4	30
+sub2.delay.5	0.07
+sub2.size_x.5	37
+sub2.delay.6	0.07
+sub2.size_x.6	43
+sub2.delay.7	0.07
+sub2.size_x.7	52
+
+sub3.delay.1	3.74
+sub3.size_x.1	0
+sub3.delay.2	0.07
+sub3.size_x.2	22
+sub3.delay.3	0.07
+sub3.size_x.3	29
+sub3.delay.4	0.07
+sub3.size_x.4	38
+sub3.delay.5	0.5
+sub3.size_x.5	52
+sub3.delay.6	0.1
+sub3.size_x.6	74
+sub3.delay.7	0.1
+sub3.size_x.7	80
+sub3.delay.8	0.1
+sub3.size_x.8	96
+sub3.delay.9	0.1
+sub3.size_x.9	118
+sub3.delay.10	0.1
+sub3.size_x.10	132
+sub3.delay.11	0.1
+sub3.size_x.11	146
+sub3.delay.12	0.1
+sub3.size_x.12	160
+sub3.delay.13	0.1
+sub3.size_x.13	176
+sub3.delay.14	0.1
+sub3.size_x.14	185

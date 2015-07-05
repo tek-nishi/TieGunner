@@ -1,0 +1,26 @@
+texture		TEX gamestart
+
+blast.uv	0 0
+blast.size	114 41
+blast.pos	155 165
+off.uv		128 0
+off.size	74 41
+off.pos		283 165
+
+destroy.uv	0 41
+destroy.size	94 29
+destroy.pos	136 315
+all.uv		99 41
+all.size	30 29
+all.pos		136 315
+enemies.uv	136 41
+enemies.size	104 29
+enemies.pos	136 315
+
+text_in		1.0
+text_disp	1.5
+text_out	0.6
+
+sub_delay	0.25 0.1
+
+se_delay	0.2

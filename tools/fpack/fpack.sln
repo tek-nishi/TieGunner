@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fpack", "fpack.vcproj", "{B676CB26-61CE-4187-8912-B847A52DA613}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B676CB26-61CE-4187-8912-B847A52DA613}.Debug.ActiveCfg = Debug|Win32
+		{B676CB26-61CE-4187-8912-B847A52DA613}.Debug.Build.0 = Debug|Win32
+		{B676CB26-61CE-4187-8912-B847A52DA613}.Release.ActiveCfg = Release|Win32
+		{B676CB26-61CE-4187-8912-B847A52DA613}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

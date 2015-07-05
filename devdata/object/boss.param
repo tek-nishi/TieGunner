@@ -1,0 +1,83 @@
+
+speed		0.01		# 加速度
+decay		0.995		# 抵抗
+rot_speed	0.007		# 旋回性能
+rot_decay	0.95		# 旋回抵抗
+
+power		20		# 体力
+dmg_nohit	0.25
+radius		35
+
+target_dist	150 700		# 相手が見える距離
+target_angle	45  		# 相手が見える角度(マイナスの値で処理をスキップ)
+
+move_dir	40		# ランダムで決める方向
+move_time	5 10		# ランダムで決める時間
+move_speed	0.3 1.0		# ランダムで決めるスピード
+
+shot_range	300
+shot_angle	80
+shot_time	30 90		# 視界に捉えてから撃つまでの時間、連続発射時間
+
+death_interval  3
+death_eft_r	125
+death_effect	1.5
+
+runaway_dist	300 700		# 他のBOSSが見える距離
+runaway_angle	180  		# 見える角度
+runaway_dir	90		# 回避方向
+runaway_fwd	3		# 先読み時間
+runaway_sample	1.0		# チェック間隔
+
+child_max	20
+
+1.weapon	75 109 -20  5
+2.weapon	-75 109 20  5
+
+1.battery	0 -99 0
+1.battery_n	"boss_battery"
+2.battery	-96 -29 -72
+2.battery_n	"boss_battery"
+3.battery	96 -29 72
+3.battery_n	"boss_battery"
+4.battery	-61 85 -144
+4.battery_n	"boss_battery"
+5.battery	61 85 144
+5.battery_n	"boss_battery"
+6.battery	0 0 0
+6.battery_n	"boss_battery2"
+
+7.battery	-20 -69 -80
+7.battery_n	"boss_battery3"
+8.battery	20 -69 80
+8.battery_n	"boss_battery3"
+9.battery	-60 -39 -8
+9.battery_n	"boss_battery3"
+10.battery	60 -39  8
+10.battery_n	"boss_battery3"
+11.battery	-73 -2 -152
+11.battery_n	"boss_battery3"
+12.battery	73 -2  152
+12.battery_n	"boss_battery3"
+13.battery	-59 46 -64
+13.battery_n	"boss_battery3"
+14.battery	59 46  64
+14.battery_n	"boss_battery3"
+15.battery	-27 70 -224
+15.battery_n	"boss_battery3"
+16.battery	27 70  224
+16.battery_n	"boss_battery3"
+
+
+body		TEX boss
+eye		TEX boss_eye
+size		256 256
+center		128 138
+col		0.45 0.45 0.45 1.0
+
+dmg_col1	0.95 0.95 0.4 1
+dmg_col2	0.3 0.2 0.2 1
+dmg_col_timer	0.25
+death_col_t	0.05
+
+score		500

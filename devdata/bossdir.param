@@ -1,0 +1,12 @@
+#
+# BOSSの向きを表示する
+#
+texture		TEX game
+
+dir.uv		225 70
+dir.size	20 22
+dir.center      10 220
+dir.col		1 1 0 1
+dir.pos		256 256
+
+dist		400

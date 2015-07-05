@@ -1,0 +1,53 @@
+#
+# 全体を支配するパラメータ群
+#
+gameobj1	"camera"
+gameobj2	"player"
+gameobj3	"weapon1"
+gameobj4	"enemy01"
+gameobj5	"enemy02"
+gameobj6	"enemy03"
+gameobj7	"enemy04"
+gameobj8	"enemy05"
+gameobj9	"enemy06"
+gameobj10	"enemy07"
+gameobj11	"bg"
+gameobj12	"bullet_p"
+gameobj13	"bomb_p"
+gameobj14	"lazer_p"
+gameobj15	"thunder_p"
+gameobj16	"boss"
+gameobj17	"boss_tail"
+gameobj18	"boss_battery"
+gameobj19	"boss_battery2"
+gameobj20	"boss_battery3"
+gameobj21	"bullet_e"
+gameobj22	"bomb_e"
+gameobj23	"lazer_e"
+gameobj24	"thunder_e"
+gameobj25	"bullet_b"
+gameobj26	"lazer_b"
+gameobj27	"bomb_b"
+gameobj28	"thunder_b"
+gameobj29	"weapon2"
+gameobj30	"extra_p"
+
+field_range	650.0
+camera_decay	0.45
+
+demoplay	"input_0316_024423_0.rec"
+replay		"input_0316_024423_0.rec"
+demo_loop	6
+
+
+texture		TEX game
+
+pause.pos	204 281
+pause.size	104 30
+pause.uv	0 0
+
+demo_time	90
+demo_skip	1.5
+demo.pos	185 281
+demo.size	141 30
+demo.uv		105 0

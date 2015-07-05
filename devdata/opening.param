@@ -1,0 +1,64 @@
+start_ofs	500 500
+opening_delay	1.5
+opening_time	10
+decay		0.007
+decay_add	1.01
+
+text_fade	0.6
+
+texture		TEX opening
+
+# In a garaxy far far
+1.size		212 32
+1.uv		0 0
+1.pos		111 150
+
+# away.
+2.size		75 32
+2.uv		0 32
+2.pos		325 150
+
+# He shoulderd
+3.size		175 32
+3.uv		75 32
+3.pos		27 200
+
+# the human race's
+4.size		204 32
+4.uv		0 64
+4.pos		205 200
+
+# hope,
+5.size		70 32
+5.uv		0 96
+5.pos		414 200
+
+# and started on
+6.size		178 32
+6.uv		77 96
+6.pos		115 240
+
+# a journy
+7.size		99 32
+7.uv		0 128
+7.pos		298 240
+
+# to the
+8.size		73 32
+8.uv		106 128
+8.pos		74 280
+
+# enemy's base all
+9.size		203 32
+9.uv		0 160
+9.pos		153 280
+
+# alone.
+10.size		77 32
+10.uv		0 192
+10.pos		361 280
+
+# With the...
+11.size		126 32
+11.uv		77 192
+11.pos		193 360
