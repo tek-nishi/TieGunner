@@ -95,7 +95,7 @@ sParam *ReadGameSettings(void)
 	char *fname;
 
 	if(MmFileCheck(SETTINGS_FILE)) fname = SETTINGS_FILE;
-	else                           fname = PATH_DATA"/"SETTINGS_FILE;
+	else                           fname = PATH_DATA "/" SETTINGS_FILE;
 
 	return ParamRead(fname);
 }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7CCA5823-0FFA-41E9-B008-D78A89272C9D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>game01</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>13399599B889EA514D4EEEFF54112BAE6FAB1B45</key>
+		<string>github.com:tek-nishi/TieGunner.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>game01.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>13399599B889EA514D4EEEFF54112BAE6FAB1B45</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:tek-nishi/TieGunner.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>13399599B889EA514D4EEEFF54112BAE6FAB1B45</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>13399599B889EA514D4EEEFF54112BAE6FAB1B45</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TieGunner</string>
+		</dict>
+	</array>
+</dict>
+</plist>

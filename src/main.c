@@ -289,7 +289,7 @@ int main(int argc, char **argv)
 	glutInitWindowSize(WINDOW_WIDTH, WINDOW_HEIGHT);
 	glutInitWindowPosition(x, y);
 	glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE);
-	glutCreateWindow(PROJECT_NAME"  Ver "VERSION_NUMBER"."BUILD_NUMBER);
+	glutCreateWindow(PROJECT_NAME "  Ver " VERSION_NUMBER "." BUILD_NUMBER);
 
 	{
 		BOOL res = OsIsVsyncSwap();
